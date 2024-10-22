@@ -1,0 +1,73 @@
+/*
+Theme Name: basetheme
+Author: arifefa
+*/
+
+html, body, ul {
+    margin:0px!important;
+}
+
+.container{
+    max-width:1040px;
+    margin:auto;
+}
+
+header {
+    background:black;
+}
+header ul {
+    display : flex;
+    height:90px;
+    align-items:center;
+    gap:30px;
+}
+header ul li {
+    list-style:none ;
+}
+header ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+.SectionHero{
+    height:500px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color :white;
+    font-size:40px;
+}
+.Section2{
+    margin : 50px 0;
+
+}
+.Section3{
+    margin : 50px 0;
+}
+.Section3 .wrap-post{
+    display:flex;
+    gap:20px;
+}
+.Section3 .item-post {
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 200px;
+    text-align:center;
+    display: grid;
+    align-items :center;
+}
+footer {
+    text-align:center;
+    background:black;
+    color:white;
+    
+    height: 40px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    
+}
